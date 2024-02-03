@@ -50,6 +50,7 @@ const Experience =({id})=>{
                             <LeftSide>
                                 <h1>Experience</h1>
                                 <hr/>
+                                <p>or download my resume</p>
                             </LeftSide>
                         </Col>
                         <Col md={6}>

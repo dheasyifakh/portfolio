@@ -45,7 +45,7 @@ const Awards =({id})=>{
                 <Row>
                     <Col md={6}>
                         <LeftSide>
-                            <h1>Awards</h1>
+                            <h1>Contact</h1>
                             <hr/>
                         </LeftSide>
                     </Col>
@@ -53,15 +53,17 @@ const Awards =({id})=>{
                         <UlStyle>
                             <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>01</h2> <p style={{margin:"8px"}}>Lorem Ipsum</p>
+                                    <h2>-</h2> <p style={{margin:"8px"}}>Email</p>
                                 </div>
-                                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p>
+                                <p><b>dheasyifakhoirunnisa@gmail.com</b></p>
                             </li>
                             <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>02</h2> <p style={{margin:"8px"}}>Lorem Ipsum</p>
+                                    <h2>-</h2> <p style={{margin:"8px"}}>Linkedin</p>
                                 </div>
-                                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> </p>
+                                <a href="https://www.linkedin.com/in/dhea-syifa-khoirunnisa-aa7baa153/" target='_blank' style={{ color:"black"}}>
+                                Dhea Syifa Khoirunnisa
+                          </a>
                             </li>
                             <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>

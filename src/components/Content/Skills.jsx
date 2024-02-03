@@ -3,7 +3,10 @@ import styled from 'styled-components'
 
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
-
+import { FaHtml5, FaCss3Alt, FaFigma, FaReact, FaGit, FaBootstrap,FaWordpress  } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { TbBrandNextjs, TbFileTypeSql } from "react-icons/tb";
+import { SiTailwindcss, SiTypescript } from "react-icons/si";
 const Wrapper = styled.section`
     overflow-x: hidden;
     padding-top: 80px;
@@ -21,7 +24,7 @@ const CardWrap = styled.section`
     text-align: center;
     background-color: #ffffff11;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 50px 10px;
+    padding: 40px 10px;
     width: 9rem;
     height: 9rem;
 `
@@ -36,25 +39,77 @@ const Skills =({id})=>{
                     </Col>
                 </Row>
                 <br/>
-                <Row className='mt-5'>
-                    <Col md={3}>
+                <Row className='mt-3'>
+                    <Col md={2} className="mt-4">
                         <CardWrap>
-                            <h2>HTML</h2>
+                            <FaHtml5 style={{fontSize: "52px"}}/>
+                            <h5>HTML</h5>
                         </CardWrap> 
                     </Col>
-                    <Col md={3}>
+                    <Col md={2} className="mt-4">
                         <CardWrap>
-                            <h2>CSS</h2>
+                            <FaCss3Alt style={{fontSize: "52px"}}/>
+                            <h5>CSS</h5>
                         </CardWrap>
                     </Col>
-                    <Col md={3}>
+                    <Col md={2} className="mt-4">
                         <CardWrap>
-                            <h2>JavaScript</h2>
+                            <IoLogoJavascript style={{fontSize: "52px"}}/>
+                            <h5>JavaScript</h5>
                         </CardWrap>
                     </Col>
-                    <Col md={3}>
-                        <CardWrap style={{paddingTop: "30px"}}>
-                            <h2>UI/UX Design</h2>
+                    <Col md={2} className="mt-4">
+                        <CardWrap>
+                            <SiTypescript style={{fontSize: "52px"}}/>
+                            <h5>TypeScript</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <FaFigma style={{fontSize: "52px"}}/>
+                            <h5>Figma</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <FaReact style={{fontSize: "52px"}}/>
+                            <h5>ReactJS</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <TbBrandNextjs style={{fontSize: "52px"}}/>
+                            <h5>NextJS</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <TbFileTypeSql style={{fontSize: "52px"}}/>
+                            <h5>SQL</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <FaGit style={{fontSize: "52px"}}/>
+                            <h5>Git</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <FaBootstrap style={{fontSize: "52px"}}/>
+                            <h5>Bootstrap</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <SiTailwindcss style={{fontSize: "52px"}}/>
+                            <h5>Tailwind CSS</h5>
+                        </CardWrap>
+                    </Col>
+                    <Col md={2} className="mt-4">
+                        <CardWrap >
+                        <FaWordpress style={{fontSize: "52px"}}/>
+                            <h5>Elementor</h5>
                         </CardWrap>
                     </Col>
                 </Row>

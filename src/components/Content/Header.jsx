@@ -7,6 +7,7 @@ import shape from '../../assets/img/shape.png'
 //plugin
 import {Row, Col} from 'react-bootstrap'
 import TypeWriter from '../TypeWriter/TypeWriter'
+import { FaLinkedin,  FaGithub, FaBehanceSquare, FaEnvelope  } from "react-icons/fa";
 
 const Wrapper = styled.section`
     overflow-x: hidden;
@@ -24,7 +25,7 @@ const Wrapper = styled.section`
 const LeftSide = styled.section`
   width: 100%;
   height: 100%;
-  padding-top: 13rem;
+  padding-top: 10rem;
   @media (max-width: 960px) {
     padding-top: 1rem;
     width: 100%;
@@ -100,7 +101,20 @@ const Header = ({id}) =>{
                             I have interest in UI/UX Design and Front-End Development. My journey in web development began with a strong foundation in HTML, CSS, and JavaScript. Over the years, I've honed my skills in these core technologies while staying abreast of the latest trends and best practices in frontend development.</p>
                         <br />
                         <p>Found me on:</p>
-                      
+                        <div className="d-flex ">
+                          <a href="https://www.linkedin.com/in/dhea-syifa-khoirunnisa-aa7baa153/" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                            <FaLinkedin/>
+                          </a>
+                          <a href="https://github.com/dheasyifakh" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                            <FaGithub/>
+                          </a>
+                          <a href="https://www.behance.net/dheasykhoirunnisa" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                            <FaBehanceSquare/>
+                          </a>
+                          <a href="mailto:dheasyifakhoirunnisa@gmail.com" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                            <FaEnvelope/>
+                          </a>
+                        </div>
                     </LeftSide>
 
                   </Col>

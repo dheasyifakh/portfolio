@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import project from '../../assets/img/project1.png'
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
 
@@ -42,34 +42,19 @@ const Interest =({id})=>{
     return (
         <Wrapper id={id}>
             <Container>
-                <Row>
-                    <Col md={6}>
-                        <LeftSide>
-                            <h1>Interest</h1>
-                            <hr/>
-                        </LeftSide>
+            <   Row className="justify-content-md-center mb-5">
+                    <Col xl={4} style={{textAlign: 'center'}}>
+                        <h1>Projects</h1>
+                        <hr/>
                     </Col>
-                    <Col md={6}>
-                        <UlStyle>
-                            <li style={{marginBottom: '3rem'}}>
-                                <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>01</h2> <p style={{margin:"8px"}}>UI/UX Design</p>
-                                </div>
-                                <p><b>Figma, Adobe XD, HTML, CSS</b></p>
-                            </li>
-                            <li style={{marginBottom: '3rem'}}>
-                                <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>02</h2> <p style={{margin:"8px"}}>Crafting</p>
-                                </div>
-                                <p><b>Crochet</b> </p>
-                            </li>
-                            <li style={{marginBottom: '3rem'}}>
-                                <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>02</h2> <p style={{margin:"8px"}}>Web Development</p>
-                                </div>
-                                <p><b>HTML, CSS, Javascript, Laravel, ReactJS</b> </p>
-                            </li>
-                        </UlStyle>
+                </Row>
+                <Row>
+                    <Col md={4}>
+                       <img src={project} width="400"/>
+                       <h3>CAJ Print Website Company Profile</h3>
+                    </Col>
+                    <Col md={4}>
+                       
                     </Col>
                 </Row>
             </Container>
