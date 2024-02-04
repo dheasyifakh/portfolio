@@ -4,6 +4,7 @@ import styled from 'styled-components'
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
 import cv from '../../assets/file/DheaSyifaKhoirunnisa-CV.pdf'
+import { FaDownload } from "react-icons/fa";
 
 const Wrapper = styled.section`
     overflow-x: hidden;
@@ -51,16 +52,12 @@ const Experience =({id})=>{
                             <LeftSide>
                                 <h1>Experience</h1>
                                 <hr/>
-                                <p>or download my resume <a href={cv} download="Dhea-CV">here</a></p>
+                                <p>or download my resume <a href={cv} style={{textDecoration: "none", color:"#4ebae8d3"}}download="Dhea-CV">here <FaDownload/></a></p>
                             </LeftSide>
                         </Col>
                         <Col md={6}>
                             <UlStyle>
                                 <li style={{marginBottom: '3rem'}}>
-                                    {/* <ul className="ex-list" style={{listStyleType: "none"}}>
-                                        <li><h2>01</h2></li>
-                                        <li><p style={{fontSize: '20px'}}>Intrenship Front-End Web Developer</p></li>
-                                    </ul> */}
                                     <div style={{fontSize: '20px', display:'flex'}}>
                                         <h2>01</h2> <p style={{margin:"8px"}}>Internship Front-End Web Developer</p>
                                     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import background from '../../assets/img/Background.png'
-import profile from '../../assets/img/IMG_8989.png'
+import profile from '../../assets/img/IMG_0257.png'
 import shape from '../../assets/img/shape.png'
 
 //plugin
@@ -121,7 +121,7 @@ const Header = ({id}) =>{
                   <Col md={6}>
                     <ImageWrapper>
                       <Shape  src={shape} />
-                      <Img className="flexCenter" src={profile} style={{zIndex:9, backgroundColor: "rgb(255 255 255 / 87%)", borderRadius: "45%"}}/>
+                      <Img className="flexCenter" src={profile} style={{zIndex:9, backgroundColor: "rgb(255 255 255 / 87%)", borderRadius: "50%"}} height="550"/>
                     </ImageWrapper>
                   </Col>
                 </Row>

@@ -20,9 +20,9 @@ const OverlayHover = ({ children, linkWeb }) => {
     >
       {children}
       {isHovered && <div className="overlay">
-            <div class="middle">
-                <div class="text">
-                    <a href={linkWeb} target='_blank' style={{fontSize: "28px"}}>
+            <div className="middle">
+                <div className="text">
+                    <a href={linkWeb} target='_blank' style={{fontSize: "28px",color:"white"}}>
                         <FaEye/>
                     </a>
                 </div>

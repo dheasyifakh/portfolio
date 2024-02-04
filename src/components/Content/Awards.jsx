@@ -51,8 +51,8 @@ const Awards =({id})=>{
                             <hr/>
                         </LeftSide>
                     </Col>
-                    <Col md={6}>
-                        <UlStyle>
+                    <Col md={6} className='mt-5 pt-5 text-center'>
+                        {/* <UlStyle>
                             <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>
                                     <h2>-</h2> <p style={{margin:"8px"}}>Email <FaEnvelope/></p>
@@ -68,13 +68,24 @@ const Awards =({id})=>{
                                 Dhea Syifa Khoirunnisa
                           </a>
                             </li>
-                            {/* <li style={{marginBottom: '3rem'}}>
-                                <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>02</h2> <p style={{margin:"8px"}}>Lorem Ipsum</p>
-                                </div>
-                                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> </p>
-                            </li> */}
-                        </UlStyle>
+                    
+                        </UlStyle> */}
+                        <div className="">
+                            <h3>Contact me through: </h3>
+                            <a href="mailto:dheasyifakhoirunnisa@gmail.com" target='_blank' className='btn btn-success' style={{backgroundColor: "#93e1a4", border:"#93e1a4"}}>Email {''} <FaEnvelope/></a>
+                            <h3 className='mt-5'>or find me on:</h3>
+                            <div className="d-flex justify-content-center">
+                                <a href="https://www.linkedin.com/in/dhea-syifa-khoirunnisa-aa7baa153/" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                                    <FaLinkedin/>
+                                </a>
+                                <a href="https://github.com/dheasyifakh" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                                    <FaGithub/>
+                                </a>
+                                <a href="https://www.behance.net/dheasykhoirunnisa" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
+                                    <FaBehanceSquare/>
+                                </a>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import project from '../../assets/img/project1.png'
 import project2 from '../../assets/img/project2.png'
 import project3 from '../../assets/img/project3.png'
+import project4 from '../../assets/img/project4.png'
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
 import OverlayHover from '../Overlay/OverlayHover'
@@ -55,27 +56,74 @@ const Interest =({id})=>{
                     <Col md={4} className='mt-3'>
                         <div className="project-wrap">
                             <OverlayHover linkWeb="https://cajprint.com/">
-                                <img src={project} width="400" alt="Avatar" class="image" />
+                                <img src={project} width="400" alt="Avatar" className="image" />
                             </OverlayHover>
-                            <h3>CAJ Print Company Profile</h3>
+                            <h3 className='mt-3'>CAJ Print Company Profile</h3>
+                            <div className="d-flex">
+                                <div className="project-info">
+                                    <h5>Elementor</h5>
+                                </div>
+                            </div>
                         </div>
                        
                     </Col>
                     <Col md={4} className='mt-3'>
                         <div className="project-wrap">
                             <OverlayHover linkWeb="https://am-arcticmonkeys.web.app/home.html">
-                                    <img src={project2} width="400" alt="Avatar" class="image" />
+                                    <img src={project2} width="400" alt="Avatar" className="image" />
                             </OverlayHover>
-                            <h3>Arctic Monkeys</h3>
+                            
+                            <h3 className='mt-3'>Arctic Monkeys</h3>
+                            <div className="d-flex">
+                                <div className="project-info">
+                                    <h5>HTML</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>CSS</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>JavaScript</h5>
+                                </div>
+                            </div>
                         </div>
                        
                     </Col>
                     <Col md={4} className='mt-3'>
                        
                        <OverlayHover linkWeb="https://currency-beryl-two.vercel.app/">
-                            <img src={project3} width="400" alt="Avatar" class="image" />
+                            <img src={project3} width="400" alt="Avatar" className="image" />
 
                        </OverlayHover>
+                       <h3 className='mt-3'>Currency</h3>
+                       <div className="d-flex">
+                            <div className="project-info">
+                                <h5>ReactJS</h5>
+                            </div>
+                            <div className="project-info">
+                                <h5>API</h5>
+                            </div>
+                            <div className="project-info">
+                                <h5>JavaScript</h5>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={4} className='mt-5'>   
+                       <OverlayHover linkWeb="https://movie-list-lemon.vercel.app/">
+                            <img src={project4} width="400" alt="Avatar" className="image" />
+
+                       </OverlayHover>
+                       <h3 className='mt-3'>Movie List</h3>
+                       <div className="d-flex">
+                            <div className="project-info">
+                                <h5>ReactJS</h5>
+                            </div>
+                            <div className="project-info">
+                                <h5>API</h5>
+                            </div>
+                            <div className="project-info">
+                                <h5>JavaScript</h5>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
