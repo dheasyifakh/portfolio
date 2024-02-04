@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import project from '../../assets/img/project1.png'
+import project2 from '../../assets/img/project2.png'
+import project3 from '../../assets/img/project3.png'
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
+import OverlayHover from '../Overlay/OverlayHover'
 
 const Wrapper = styled.section`
     overflow-x: hidden;
@@ -49,12 +52,30 @@ const Interest =({id})=>{
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
-                       <img src={project} width="400"/>
-                       <h3>CAJ Print Website Company Profile</h3>
-                    </Col>
-                    <Col md={4}>
+                    <Col md={4} className='mt-3'>
+                        <div className="project-wrap">
+                            <OverlayHover linkWeb="https://cajprint.com/">
+                                <img src={project} width="400" alt="Avatar" class="image" />
+                            </OverlayHover>
+                            <h3>CAJ Print Company Profile</h3>
+                        </div>
                        
+                    </Col>
+                    <Col md={4} className='mt-3'>
+                        <div className="project-wrap">
+                            <OverlayHover linkWeb="https://am-arcticmonkeys.web.app/home.html">
+                                    <img src={project2} width="400" alt="Avatar" class="image" />
+                            </OverlayHover>
+                            <h3>Arctic Monkeys</h3>
+                        </div>
+                       
+                    </Col>
+                    <Col md={4} className='mt-3'>
+                       
+                       <OverlayHover linkWeb="https://currency-beryl-two.vercel.app/">
+                            <img src={project3} width="400" alt="Avatar" class="image" />
+
+                       </OverlayHover>
                     </Col>
                 </Row>
             </Container>

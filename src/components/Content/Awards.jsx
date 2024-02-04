@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
+import { FaLinkedin,  FaGithub, FaBehanceSquare, FaEnvelope  } from "react-icons/fa";
+
 
 const Wrapper = styled.section`
     overflow-x: hidden;
@@ -53,24 +55,25 @@ const Awards =({id})=>{
                         <UlStyle>
                             <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>-</h2> <p style={{margin:"8px"}}>Email</p>
+                                    <h2>-</h2> <p style={{margin:"8px"}}>Email <FaEnvelope/></p>
                                 </div>
                                 <p><b>dheasyifakhoirunnisa@gmail.com</b></p>
                             </li>
                             <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>
-                                    <h2>-</h2> <p style={{margin:"8px"}}>Linkedin</p>
+                            
+                                    <h2>-</h2> <p style={{margin:"8px"}}>Linkedin <FaLinkedin/></p>
                                 </div>
                                 <a href="https://www.linkedin.com/in/dhea-syifa-khoirunnisa-aa7baa153/" target='_blank' style={{ color:"black"}}>
                                 Dhea Syifa Khoirunnisa
                           </a>
                             </li>
-                            <li style={{marginBottom: '3rem'}}>
+                            {/* <li style={{marginBottom: '3rem'}}>
                                 <div style={{fontSize: '20px', display:'flex'}}>
                                     <h2>02</h2> <p style={{margin:"8px"}}>Lorem Ipsum</p>
                                 </div>
                                 <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> </p>
-                            </li>
+                            </li> */}
                         </UlStyle>
                     </Col>
                 </Row>

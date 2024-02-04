@@ -41,73 +41,73 @@ const Skills =({id})=>{
                 <br/>
                 <Row className='mt-3'>
                     <Col md={2} className="mt-4">
-                        <CardWrap>
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                             <FaHtml5 style={{fontSize: "52px"}}/>
                             <h5>HTML</h5>
                         </CardWrap> 
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap>
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                             <FaCss3Alt style={{fontSize: "52px"}}/>
                             <h5>CSS</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap>
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                             <IoLogoJavascript style={{fontSize: "52px"}}/>
                             <h5>JavaScript</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap>
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                             <SiTypescript style={{fontSize: "52px"}}/>
                             <h5>TypeScript</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <FaFigma style={{fontSize: "52px"}}/>
                             <h5>Figma</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <FaReact style={{fontSize: "52px"}}/>
                             <h5>ReactJS</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <TbBrandNextjs style={{fontSize: "52px"}}/>
                             <h5>NextJS</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <TbFileTypeSql style={{fontSize: "52px"}}/>
                             <h5>SQL</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <FaGit style={{fontSize: "52px"}}/>
                             <h5>Git</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <FaBootstrap style={{fontSize: "52px"}}/>
                             <h5>Bootstrap</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <SiTailwindcss style={{fontSize: "52px"}}/>
                             <h5>Tailwind CSS</h5>
                         </CardWrap>
                     </Col>
                     <Col md={2} className="mt-4">
-                        <CardWrap >
+                        <CardWrap className='animate__animated animate__fadeInLeft '>
                         <FaWordpress style={{fontSize: "52px"}}/>
                             <h5>Elementor</h5>
                         </CardWrap>

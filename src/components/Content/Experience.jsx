@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
+import cv from '../../assets/file/DheaSyifaKhoirunnisa-CV.pdf'
 
 const Wrapper = styled.section`
     overflow-x: hidden;
@@ -50,7 +51,7 @@ const Experience =({id})=>{
                             <LeftSide>
                                 <h1>Experience</h1>
                                 <hr/>
-                                <p>or download my resume</p>
+                                <p>or download my resume <a href={cv} download="Dhea-CV">here</a></p>
                             </LeftSide>
                         </Col>
                         <Col md={6}>

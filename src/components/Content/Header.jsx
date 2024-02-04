@@ -100,7 +100,7 @@ const Header = ({id}) =>{
                         <p>I'm a Front-End Web Developer. I'm from Jakarta and I'm currently living in Tangerang, Banten, Indonesia. I have been working as a Web Developer more than 4 years.
                             I have interest in UI/UX Design and Front-End Development. My journey in web development began with a strong foundation in HTML, CSS, and JavaScript. Over the years, I've honed my skills in these core technologies while staying abreast of the latest trends and best practices in frontend development.</p>
                         <br />
-                        <p>Found me on:</p>
+                        <p>Find me on:</p>
                         <div className="d-flex ">
                           <a href="https://www.linkedin.com/in/dhea-syifa-khoirunnisa-aa7baa153/" target='_blank' style={{fontSize: '36px', marginRight:'5px', color:"black"}}>
                             <FaLinkedin/>
