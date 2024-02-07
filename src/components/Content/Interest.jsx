@@ -4,6 +4,7 @@ import project from '../../assets/img/project1.png'
 import project2 from '../../assets/img/project2.png'
 import project3 from '../../assets/img/project3.png'
 import project4 from '../../assets/img/project4.png'
+import project5 from '../../assets/img/project5.png'
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
 import OverlayHover from '../Overlay/OverlayHover'
@@ -13,7 +14,7 @@ const Wrapper = styled.section`
     padding-top: 80px;
     width: 100%;
     min-height: 715px;
-    background-image: radial-gradient(closest-side at 280px 290px,#C8FFD4,white);
+    /* background-image: radial-gradient(closest-side at 280px 290px,#C8FFD4,white); */
 
     /* background-color: #5a83a7 !important; */
     @media (max-width: 960px) {
@@ -89,7 +90,7 @@ const Interest =({id})=>{
                        
                     </Col>
                     <Col md={4} className='mt-3'>
-                       
+                       <div className="project-wrap">
                        <OverlayHover linkWeb="https://currency-beryl-two.vercel.app/">
                             <img src={project3} width="400" alt="Avatar" className="image" />
 
@@ -106,24 +107,49 @@ const Interest =({id})=>{
                                 <h5>JavaScript</h5>
                             </div>
                         </div>
+                       </div>
+                       
                     </Col>
                     <Col md={4} className='mt-5'>   
-                       <OverlayHover linkWeb="https://movie-list-lemon.vercel.app/">
-                            <img src={project4} width="400" alt="Avatar" className="image" />
-
-                       </OverlayHover>
-                       <h3 className='mt-3'>Movie List</h3>
-                       <div className="d-flex">
-                            <div className="project-info">
-                                <h5>ReactJS</h5>
-                            </div>
-                            <div className="project-info">
-                                <h5>API</h5>
-                            </div>
-                            <div className="project-info">
-                                <h5>JavaScript</h5>
+                        <div className="project-wrap">
+                            <OverlayHover linkWeb="https://movie-list-lemon.vercel.app/">
+                                <img src={project4} width="400" alt="Avatar" className="image" />
+                            </OverlayHover>
+                            <h3 className='mt-3'>Movie List</h3>
+                            <div className="d-flex">
+                                <div className="project-info">
+                                    <h5>ReactJS</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>API</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>JavaScript</h5>
+                                </div>
                             </div>
                         </div>
+                       
+                    </Col>
+                    <Col md={4} className='mt-5'>   
+                        <div className="project-wrap">
+                            <OverlayHover linkWeb="https://calculator-omega-vert.vercel.app/">
+                                <img src={project5} width="400" alt="Avatar" className="image" />
+
+                        </OverlayHover>
+                        <h3 className='mt-3'>Calculator</h3>
+                        <div className="d-flex">
+                                <div className="project-info">
+                                    <h5>HTML</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>CSS</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>JavaScript</h5>
+                                </div>
+                            </div>
+                        </div>
+                       
                     </Col>
                 </Row>
             </Container>
