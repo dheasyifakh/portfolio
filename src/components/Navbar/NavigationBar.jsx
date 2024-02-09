@@ -4,7 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {  Link, animateScroll as scroll, scrollSpy } from "react-scroll";
 
-const NavigationBar = () =>{
+const NavigationBar = props =>{
+  const {handleToggleDarkMode, darkMode} = props
     const [navBackground, setNavBackground] = useState(false)
     const navRef = useRef()
     navRef.current = navBackground
@@ -34,6 +35,7 @@ const NavigationBar = () =>{
               {/* <Link className='nav-link' activeClass="active" to="education" spy={true} smooth="easeInOutQuart" duration={500}>Education</Link> */}
               <Link className='nav-link' activeClass="active" to="awards" spy={true} smooth="easeInOutQuart" duration={500}>Contact</Link>
             </Nav>
+            {/* <button onClick={handleToggleDarkMode}>{darkMode ? 'Light Mode' : 'Dark Mode'}</button> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

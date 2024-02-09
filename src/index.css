@@ -43,6 +43,10 @@ body,html {
   /* place-items: center; */
   /* min-width: 320px;
   min-height: 100vh; */
+  /* overflow: hidden; */
+  /* width: 100%; */
+  background:  '#f0f0f0';
+  /* transition: background 0.3s ease; */
 }
 
 h1 {
@@ -222,4 +226,82 @@ ul .ex-list li{
   padding: 5px;
   border-radius: 5px;
   margin-right: 10px;
+}
+.gradient{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  filter: blur(calc(350px / 5));
+  background-image: linear-gradient(#f7ffd1,#beffe1, #7bb3e6);
+  animation: rotate 50s cubic-bezier(0.8, 0.2, 0.2, 0.8) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  animation: moveObject 5s infinite alternate ease-in-out;
+
+}
+/* Keyframes for moving the object */
+@keyframes moveObject {
+0% {
+top: 0;
+left: 0;
+}
+25% {
+top: 0;
+left: calc(100% - 50px);
+}
+50% {
+top: calc(100% - 50px);
+left: calc(100% - 50px);
+}
+75% {
+top: calc(100% - 50px);
+left: 0;
+}
+100% {
+top: 0;
+left: 0;
+}
+}
+.landing-page {
+position: relative; /* Relative position for positioning content */
+}
+.background {
+position: fixed;
+display: flex;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+place-content: center;
+align-items: center;
+/* Add background styles */
+}
+
+/* .dark-mode body{
+  color: #F7F7F7;
+} */
+.dark-mode .nav-link{
+  color: #bebebe;
+}
+.dark-mode .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #bebebe;
+
+}
+.dark-mode .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  border-bottom: 1px solid #bebebe;
+}
+.dark-mode .background{
+  background-color: #011222;
+}
+
+.dark-mode h1 h2 h3 h4 h5{
+  color: #F7F7F7;
+}
+
+.dark-mode p{
+  color: #F7F7F7 !important; 
+
+}
+
+.dark-mode .title-web{
+  color: #F7F7F7 !important;
 }

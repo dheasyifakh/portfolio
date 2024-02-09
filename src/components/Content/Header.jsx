@@ -14,9 +14,9 @@ const Wrapper = styled.section`
     padding-top: 80px;
     width: 100%;
     min-height: 715px;
-    background-image: url(${background});
+    /* background-image: url(${background});
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* background-color: #5a83a7 !important; */
     @media (max-width: 960px) {
         flex-direction: column;

@@ -11,7 +11,7 @@ const Wrapper = styled.section`
     padding-top: 80px;
     width: 100%;
     min-height: 715px;
-    background-image: radial-gradient(closest-corner at 80% 40%,#ff9393af,white);
+    /* background-image: radial-gradient(closest-corner at 80% 40%,#ff9393af,white); */
 
     /* background-color: #5a83a7 !important; */
     @media (max-width: 960px) {

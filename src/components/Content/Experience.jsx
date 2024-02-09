@@ -11,12 +11,12 @@ const Wrapper = styled.section`
     padding-top: 80px;
     width: 100%;
     min-height: 715px;
-    background-image: radial-gradient(closest-corner at 80% 40%,#b8e8fcd5,white);
+    /* background-image: radial-gradient(closest-corner at 80% 40%,#b8e8fcd5,white); */
        
     /* background-color: #5a83a7 !important; */
     @media (max-width: 960px) {
         flex-direction: column;
-        background-image: radial-gradient(655px 185px,#b8e8fcd5,white);
+        /* background-image: radial-gradient(655px 185px,#b8e8fcd5,white); */
 
     }
 `
