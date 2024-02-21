@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
-import cv from '../../assets/file/DheaSyifaKhoirunnisa-CV.pdf'
+import cv from '../../assets/file/DheaSyifaKhoirunnisa-Resume.pdf'
 import { FaDownload } from "react-icons/fa";
 
 const Wrapper = styled.section`
