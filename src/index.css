@@ -265,7 +265,7 @@ left: 0;
 position: relative; /* Relative position for positioning content */
 }
 .background {
-position: fixed;
+/* position: fixed; */
 display: flex;
 top: 0;
 left: 0;
@@ -276,9 +276,9 @@ align-items: center;
 /* Add background styles */
 }
 
-/* .dark-mode body{
+.dark-mode body{
   color: #F7F7F7;
-} */
+}
 .dark-mode .nav-link{
   color: #bebebe;
 }
@@ -292,9 +292,12 @@ align-items: center;
 .dark-mode .background{
   background-color: #011222;
 }
+.dark-mode .landing-page{
+  background-color: #011222;
+}
 
-.dark-mode h1 h2 h3 h4 h5{
-  color: #F7F7F7;
+.dark-mode .h1 .h2 .h3 .h4 .h5{
+  color: #F7F7F7 !important;
 }
 
 .dark-mode p{
