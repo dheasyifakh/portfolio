@@ -5,6 +5,7 @@ import project2 from '../../assets/img/project2.png'
 import project3 from '../../assets/img/project3.png'
 import project4 from '../../assets/img/project4.png'
 import project5 from '../../assets/img/project5.png'
+import project6 from '../../assets/img/project6.png'
 //plugin
 import {Row, Col, Container} from 'react-bootstrap'
 import OverlayHover from '../Overlay/OverlayHover'
@@ -147,6 +148,25 @@ const Interest =({id})=>{
                                 <div className="project-info">
                                     <h5>JavaScript</h5>
                                 </div>
+                            </div>
+                        </div>
+                       
+                    </Col>
+                    <Col md={4} className='mt-5'>   
+                        <div className="project-wrap">
+                            <OverlayHover linkWeb="https://dzikir-pagi-petang.netlify.app/">
+                                <img src={project6} width="400" alt="Avatar" className="image" />
+
+                            </OverlayHover>
+                            <h3 className='mt-3'>Dzikir Pagi & Petang</h3>
+                            <div className="d-flex">
+                                <div className="project-info">
+                                    <h5>ReactJS</h5>
+                                </div>
+                                <div className="project-info">
+                                    <h5>TailwindCSS</h5>
+                                </div>
+                               
                             </div>
                         </div>
                        
